@@ -7,6 +7,7 @@ function HomeLayout() {
       <nav>
         <Link to={"/home"}>Dashboard</Link>
         <Link to={"/home/profile"}>Profile</Link>
+        <Link to="/home/chat">Chat</Link>
       </nav>
       <hr />
       <Outlet />
